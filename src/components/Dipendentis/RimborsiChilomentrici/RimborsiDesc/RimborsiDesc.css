@@ -1,0 +1,76 @@
+.desc_content .title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+}
+
+.desc_content .content {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+
+}
+
+.desc_area .label {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+}
+
+.desc_area .input_field {
+    padding: 5px 19px 5px 6px;
+    border: 1px solid #D9D9D9;
+}
+
+.desc_area .submit_btn {
+    background: #5CA96C;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding: 10px 30px
+}
+
+.desc_area .images_btn {
+    background: #F5F6F7;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 1px 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    /* identical to box height, or 183% */
+    width: 30px;
+    height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+}
+
+.desc_area .active_btn {
+    background: #83C282 !important;
+    color: #FFFFFF !important;
+}

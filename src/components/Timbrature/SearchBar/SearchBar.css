@@ -1,0 +1,47 @@
+.timbrature_search .form_area {
+    background: #F5F6F7;
+    border-radius: 5px;
+    width: 470px;
+}
+
+.timbrature_search .form_area .input_field {
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 2px;
+}
+
+.timbrature_search .form_area .title {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+}
+
+
+.timbrature_search .form_area .table_data .name {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+}
+
+.timbrature_search .form_area .table_data .profe {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9D9D9D;
+}
+
+.timbrature_search .form_area li {
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+.headequarter_area {
+    background: #FFFFFF;
+    box-shadow: 22px 20px 80px 5px #DBE3ED;
+    border-radius: 5px;
+}
+
+.headequarter_area .badge_title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    /* identical to box height, or 183% */
+    text-transform: uppercase;
+    letter-spacing: -0.022em;
+
+    color: #49505C;
+}
+
+.headequarter_area .badge_qr {
+    background: #49505C;
+    border-radius: 15px;
+    padding: 16px;
+}
+
+.headequarter_area .main_btn {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #49505C;
+    text-decoration: none;
+    padding: 9px 18px;
+
+}
+
+.headequarter_area .sub_text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    /* identical to box height, or 164% */
+
+    text-align: center;
+    letter-spacing: -0.022em;
+
+    color: #49505C;
+}
+
+.headequarter_area .content_text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+}
+
+.headequarter_area .portal_cafe {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #000000;
+}
+
+.headequarter_area .location_btn {
+    border: 0.5px solid #83C282;
+    border-radius: 3px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #5CA96C;
+    width: 100%;
+    text-align: left;
+    background: none;
+}
+.headequarter_area .map_square {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+    border: 1px solid #E4E4E4;
+    border-radius: 2px;
+    padding: 10px 20px;
+}

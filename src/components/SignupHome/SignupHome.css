@@ -1,0 +1,64 @@
+.signup_page {
+    height: 100vh;
+    position: relative;
+    background: #F5F6FD;
+}
+
+
+.signup_page .signup_area {
+    width: 866px;
+    height: 549px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFFFFF;
+    box-shadow: 0px 15px 40px 6px rgba(0, 0, 0, 0.09);
+    border-radius: 25px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.signup_page .signup_area .image_area {
+    background: #5CA96C;
+    height: 549px;
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.signup_page .signup_area .title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #49505C;
+}
+
+.signup_page .signup_area .sub_title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+}
+
+.signup_page .signup_area .btns {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9B9C9D;
+    outline: none;
+    padding: 8px 13px;
+    background: #FBFBFB;
+    border: 1px solid #E4E4E4;
+    border-radius: 25px;
+    text-transform: uppercase;
+}

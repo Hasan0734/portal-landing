@@ -1,0 +1,30 @@
+.home_tab_area {
+    background-color: #F5F6FD;
+    padding: 35px 10px 0px 10px;
+    overflow: hidden;
+}
+
+.home_tab_area .tabs .tab_item .tab_link {
+
+    background: #FFFFFF;
+    border-radius: 14px 14px 0px 0px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    /* identical to box height, or 206% */
+
+    letter-spacing: -0.022em;
+
+    color: #495057;
+    text-decoration: none;
+    padding: 25px 104px;
+    /* padding: 25px 72px; */
+}
+
+.home_tab_area .tabs .tab_item .tav_active {
+    background: #5CA96C !important;
+    font-weight: 600;
+    color: #fff;
+}

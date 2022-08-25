@@ -1,0 +1,62 @@
+.signup_form .input_box {
+    border: 1px solid #E4E4E4;
+    border-radius: 2px;
+    padding: 8px 8px;
+}
+
+.signup_form .label_text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+
+}
+
+.signup_form .label_text .link {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    text-decoration-line: underline;
+    color: #5CA96C;
+
+}
+
+.signup_form .submit_btn {
+    background: #5CA96C;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+}
+
+.signup_form .alredy_text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+}
+
+.signup_form .alredy_text .link {
+
+    text-decoration-line: underline;
+    color: #5CA96C;
+}
+
+

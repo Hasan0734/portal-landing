@@ -1,0 +1,117 @@
+.team_edit_new {
+    width: 1000px;
+}
+
+.team_edit_new .title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #49505C;
+}
+
+.team_edit_new .label {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+    display: block;
+}
+
+.team_edit_new .input_box {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+    border: 1px solid #E4E4E4;
+    border-radius: 2px;
+    padding: 5px 12px;
+    width: 344px;
+}
+
+
+.team_edit_new .select_area{
+    width: 217px;
+}
+.team_edit_new .select_area .custom_select {
+    background: #F5F6F7;
+    border-radius: 2px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #000000;
+    padding: 5px 8px;
+    width: 100%;
+    cursor: pointer;
+}
+.team_edit_new .select_area .option_area{
+    width: 100%;
+    z-index: 10;
+}
+.team_edit_new .select_area .option_area .custom_select:hover{
+   background: #edeeef;
+}
+.team_edit_new .member_title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+}
+
+.team_edit_new .member_area {
+    background: #F5F6FD;
+    border-radius: 5px;
+    width: 442px;
+    min-height: 246px;
+    padding: 10px;
+}
+
+.team_edit_new .member_area .member {
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+}
+
+.team_edit_new .form_btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    padding: 6px 40px;
+    text-align: center;
+}
+
+.team_edit_new .cencel_btn {
+    color: #495057;
+    background: #FFFFFF;
+    border: 1px solid #9B9C9D;
+    border-radius: 5px;
+}
+
+.team_edit_new .save_btn {
+    background: #5CA96C;
+    border-radius: 5px;
+    color: #FFFFFF;
+}

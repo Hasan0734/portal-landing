@@ -1,0 +1,120 @@
+.rimborsi_approvate_area {
+    margin-top: 6rem;
+
+}
+
+.rimborsi_approvate_area .title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+
+}
+
+.rimborsi_approvate_area .total {
+    background: #FFE6A5;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #49505C;
+}
+
+.rimborsi_approvate_area .spese_btn {
+    border: none;
+    outline: none;
+    background: #F5F6F7;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #49505C;
+    padding: 6px 10px;
+}
+
+.rimborsi_approvate_area .list_area .list .title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+}
+
+.rimborsi_approvate_area .list_area .list .value {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+}
+
+.rimborsi_approvate_area .list_area .list .value_bold {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+}
+
+.rimborsi_approvate_area .list_area .list .collapse_btn {
+    outline: none;
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+    background: none;
+}
+
+.rimborsi_approvate_area .list_area .list .collpse_area {
+    background: #F5F6FD;
+    border-radius: 5px;
+}
+
+.rimborsi_approvate_area .list_area .list .collpse_area .title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+
+}
+
+.rimborsi_approvate_area .list_area .list .collpse_area .btn_download {
+    background: #F5F6F7;
+    border-radius: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.gap-6 {
+    gap: 5rem !important;
+}

@@ -1,0 +1,53 @@
+.stepper_nav {
+    background: #F5F6FD;
+    border-radius: 5px;
+    padding: 23px;
+}
+
+.stepper_nav .step_progress {
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    padding: 2px 12px;
+
+}
+
+.stepper_nav .step_progress .title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+
+}
+
+.stepper_nav .step_progress.active {
+    color: #5CA96C;
+}
+
+.stepper_nav .step_progress .title.active {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #5CA96C;
+}
+
+.stepper_nav .step_dash {
+    width: 90px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.stepper_nav .step_dash.active {
+    color: #5CA96C;
+}

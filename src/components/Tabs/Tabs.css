@@ -1,0 +1,27 @@
+.tab_area {
+    background-color: #F5F6FD;
+    padding: 23px 10px 0px 10px;
+    overflow: hidden;
+}
+
+.tab_area .tabs .tab_item .tab_link {
+
+    background: #FFFFFF;
+    border-radius: 14px 14px 0px 0px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+    text-decoration: none;
+    padding: 18px 61px;
+}
+
+.tab_area .tabs .tab_item .tav_active {
+    background: #5CA96C !important;
+    font-weight: 600;
+    color: #fff;
+    padding: 18px 61px;
+}

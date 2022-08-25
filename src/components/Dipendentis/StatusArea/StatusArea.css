@@ -1,0 +1,65 @@
+.status_full_area .name_title {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #49505C;
+}
+
+
+.status_full_area .status_area {
+    display: flex;
+    gap: 90px;
+}
+
+.status_full_area .status_area .realtime_status .status_title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+}
+
+.status_full_area .status_area .realtime_status .status {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    /* identical to box height, or 206% */
+
+    letter-spacing: -0.022em;
+
+    color: #DA804E;
+}
+
+.status_full_area .status_area .realtime_status .status_circle {
+    background: #DA804E;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+.status_area .next_turn .turn_title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+}
+
+.status_area .next_turn .next_turn_date {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+}

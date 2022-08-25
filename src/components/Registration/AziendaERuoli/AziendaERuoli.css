@@ -1,0 +1,121 @@
+.stepper_form {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.stepper_form .area{
+    margin-top: 2rem;
+}
+
+.stepper_form .title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #49505C;
+}
+
+.stepper_form .label_title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+}
+
+.stepper_form .input_box {
+    border: 1px solid #E4E4E4;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.stepper_form .select_btn {
+    background: #F5F6F7;
+    border-radius: 2px;
+    padding: 11px 40px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #000000;
+    outline: none;
+    border: none;
+}
+
+.stepper_form .sector .btn_area {
+    background: #FEFFFE;
+    border: 1px solid rgba(148, 214, 151, 0.63);
+    border-radius: 2px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.stepper_form .sector .btn_area:hover {
+    background: #5CA96C;
+    border-radius: 2px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #FFFFFF;
+}
+
+.stepper_form .sector .btn_area.active {
+    background: #5CA96C;
+    border-radius: 2px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #FFFFFF;
+}
+
+.stepper_form .role_area {
+    background: #F5F6FD;
+    border-radius: 5px;
+    Width: 508px;
+    Height: 369px;
+    padding: 10px;
+
+}
+
+.stepper_form .role_area .btns_btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+    background: #FFFFFF;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 6px 26px;
+}
+
+.stepper_form .role_area .btns_btn.add_btn {
+
+    background: #FFFFFF;
+    border: 1px solid #5CA96C;
+    border-radius: 25px;
+}

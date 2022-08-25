@@ -1,0 +1,56 @@
+.sedi_team {
+
+    width: 443px;
+}
+
+.sedi_team .team_title {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+
+}
+
+/* 
+.sedi_team .team_table_area {
+
+} */
+
+.sedi_team .sedi_team_table table {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    background: #F5F6FD;
+    border-radius: 5px;
+    padding: 10px 8px 10px 8px;
+}
+
+/* .sedi_team .sedi_team_table table thead tr {} */
+
+.sedi_team .sedi_team_table table thead tr th {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #495057;
+    background: #F5F6F7;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+}
+
+.sedi_team .sedi_team_table table tbody tr {
+    background: #FFFFFF;
+}
+
+.sedi_team .sedi_team_table table tbody tr td {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 3px;
+    color: #49505C;
+}

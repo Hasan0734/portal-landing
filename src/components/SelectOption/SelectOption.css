@@ -1,0 +1,29 @@
+.select_area {
+    padding: 10px 0px;
+}
+
+.select_area .select_label {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+}
+
+.select_area .select_option {
+    border: none;
+    box-shadow: 1px 2px 12px 0px #e1e1e1;
+    padding: 8px 25px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    outline: none;
+    border-radius: 5px;
+}
+
+

@@ -1,0 +1,96 @@
+.pagamenti_area .exit_btn {
+    border: none;
+    outline: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    /* identical to box height, or 206% */
+
+    letter-spacing: -0.022em;
+
+    color: #495057;
+
+}
+
+.pagamenti_area .title_text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+
+}
+
+.pagamenti_area .progress_bar {
+
+    background-color: #5CA96C;
+}
+
+.pagamenti_area .icon_btn {
+
+    background: #F5F6F7;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+
+.pagamenti_area .link {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.022em;
+    text-decoration-line: underline;
+    color: #2B8A3E;
+}
+
+.pagamenti_area .premium_plan_card {
+    background: #FFFFFF;
+    box-shadow: 22px 20px 80px 5px #DBE3ED;
+    border-radius: 5px;
+    padding: 20px;
+    width: 316px;
+}
+
+.pagamenti_area .premium_plan_card .card_text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #979797;
+
+}
+
+.pagamenti_area .premium_plan_card .img_area {
+    width: 267px;
+    height: 136px;
+    background: #D9D9D9;
+
+}
+
+.pagamenti_area .premium_plan_card .card_btn {
+    background: #F5F6F7;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #49505C;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+
+}

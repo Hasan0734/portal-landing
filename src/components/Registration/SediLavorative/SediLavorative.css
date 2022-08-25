@@ -1,0 +1,98 @@
+.sedi_form .title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #49505C;
+}
+
+.sedi_form .label_title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+
+}
+
+.sedi_form .label_subtitle {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 33px; */
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+}
+
+.sedi_form .btn_area {
+    background: #FEFFFE;
+    border: 1px solid rgba(148, 214, 151, 0.63);
+    border-radius: 2px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.sedi_form .btn_area.active {
+    background: #5CA96C;
+    border-radius: 2px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #FFFFFF;
+}
+.sedi_form .btn_area:hover {
+    background: #5CA96C;
+    border-radius: 2px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #FFFFFF;
+}
+
+.sedi_form .input_box {
+    border: 1px solid #E4E4E4;
+    border-radius: 2px;
+    padding: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+
+}
+
+.sedi_form .add_more {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    text-decoration-line: underline;
+    color: #5CA96C;
+    border: none;
+    outline: none;
+    background: none;
+
+}

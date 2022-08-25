@@ -1,0 +1,108 @@
+.form_busta .name {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #49505C;
+}
+
+.form_busta .title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+
+}
+
+.form_busta .label_text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+}
+
+.form_busta .input_field {
+    border: 1px solid #E4E4E4;
+    border-radius: 2px;
+    padding: 7px 23px 7px 5px;
+    width: 17%;
+}
+
+.form_busta .input_group_icon {
+    margin-left: -20px;
+}
+
+.form_busta .form_select {
+    background: #F5F6F7;
+    border-radius: 2px;
+    padding: 8px 35px;
+    border: none;
+    outline: none;
+}
+
+.form_busta .form_date {
+    border: 1px solid #E4E4E4;
+    border-radius: 2px;
+    padding: 7px 10px;
+}
+
+.file_up_top {
+    background: #F5F6FD;
+    border-radius: 5px;
+    padding: 9px;
+}
+
+.form_busta .file_up_top .file_upload_area {
+    background: #FFFFFF;
+    /* box-shadow: 22px 20px 80px 5px #DBE3ED; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form_busta .file_up_top .file_upload_area .upload_text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+
+    letter-spacing: -0.022em;
+
+    color: #49505C;
+
+}
+
+.form_busta .file_up_top .file_upload_area .text .text_highlight {
+    color: #5CA96C;
+    font-weight: 600;
+}
+
+
+.form_busta .file_up_top .file_upload_area .upload_icon {
+    background-color: #5CA96C;
+}
+
+.form_busta .form_submit {
+    background: #5CA96C;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding: 10px 60px;
+}

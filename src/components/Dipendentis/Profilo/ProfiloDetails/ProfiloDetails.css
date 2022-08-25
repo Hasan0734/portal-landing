@@ -1,0 +1,60 @@
+.pro_detail_area {}
+
+.pro_detail_area .pro_name {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #49505C;
+}
+
+.pro_detail_area .modify_btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    background: #F5F6F7;
+    border-radius: 5px;
+    color: #49505C;
+    text-decoration: none;
+    padding: 7px 24px;
+    border: none;
+    outline: none;
+}
+
+.pro_detail_area .label_text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+
+}
+
+.pro_detail_area .detail_value {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height, or 165% */
+
+    letter-spacing: -0.022em;
+
+    color: #49505C;
+}
+
+.pro_detail_area .download_btn_area {
+    background: #F5F6F7;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 24px 35px;
+
+}
+.pro_detail_area .download_btn {
+
+}

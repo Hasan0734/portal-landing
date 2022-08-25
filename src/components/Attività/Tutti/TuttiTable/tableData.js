@@ -1,0 +1,38 @@
+export const tuttiData = [
+  {
+    id: 1,
+    name: "Pulizia Scale",
+    inzio: "02/09/2022",
+    fine: "02/09/2022",
+    assegnatoA: "Portal Cafe",
+    stato: "Da fare",
+    note: "Si",
+  },
+  {
+    id: 2,
+    name: "Nuova Task",
+    inzio: "02/08/2022",
+    fine: "02/09/2022",
+    assegnatoA: "Enrico Sella",
+    stato: "In sospeso",
+    note: "",
+  },
+  {
+    id: 3,
+    name: "Inizio Ferie",
+    inzio: "02/08/2022",
+    fine: "02/09/2022",
+    assegnatoA: "Tutti",
+    stato: "Completato",
+    note: "",
+  },
+  {
+    id: 4,
+    name: "Servizi Generici",
+    inzio: "02/08/2022",
+    fine: "02/09/2022",
+    assegnatoA: 6,
+    stato: "Completato",
+    note: "",
+  },
+];

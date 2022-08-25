@@ -1,0 +1,168 @@
+.dipendenti_form .title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #49505C;
+}
+
+.dipendenti_form .sub_title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+
+}
+
+.dipendenti_form .label_title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+}
+
+.dipendenti_form .input_box {
+    border: 1px solid #E4E4E4;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.dipendenti_form .input_select {
+    border: 1px solid #E4E4E4;
+    border-radius: 2px;
+    padding: 8px;
+    outline: none;
+}
+
+
+.dipendenti_form .sector .btn_area {
+    background: #FEFFFE;
+    border: 1px solid rgba(148, 214, 151, 0.63);
+    border-radius: 2px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.dipendenti_form .sector .btn_area:hover {
+    background: #5CA96C;
+    border-radius: 2px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #FFFFFF;
+}
+
+.dipendenti_form .sector .btn_area.active {
+    background: #5CA96C;
+    border-radius: 2px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #FFFFFF;
+}
+
+.dipendenti_form .role_area {
+    background: #F5F6FD;
+    border-radius: 5px;
+    Width: 508px;
+    Height: 369px;
+    padding: 10px;
+
+}
+
+.dipendenti_form .role_area .btns_btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+    background: #FFFFFF;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 6px 26px;
+}
+
+
+.dipendenti_form .add_btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    text-decoration-line: underline;
+    color: #5CA96C;
+    border: none;
+    outline: none;
+    background: none;
+
+}
+
+.dipendenti_form .tooltip_container {
+    position: relative;
+}
+
+.tooltip_container .tooltip_text {
+    visibility: hidden;
+    width: 277px;
+    height: 100px;
+    background-color: #444444;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.042em;
+    color: #FFFFFF;
+    padding: 10px;
+    bottom: 28px;
+    right: -177px;
+}
+
+.tooltip_container .tooltip_indicator {
+    bottom: 14px;
+    width: 35px;
+    height: 28px;
+    background-color: #444444;
+    position: absolute;
+    clip-path: polygon(21% 41%, 6% 97%, 54% 45%);
+    left: 6px;
+    visibility: hidden;
+}
+
+.tooltip_container:hover .tooltip_text {
+    visibility: visible;
+}
+.tooltip_container:hover .tooltip_indicator {
+    visibility: visible;
+}

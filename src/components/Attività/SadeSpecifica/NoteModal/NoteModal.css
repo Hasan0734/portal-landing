@@ -1,0 +1,42 @@
+.note_modal .close_btn {
+    border: none;
+    outline: none;
+    background: none;
+
+}
+
+.note_modal .title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9B9C9D;
+
+}
+
+.note_modal .note {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.note_modal .ok_btn {
+    background: #5CA96C;
+    border-radius: 3px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding: 10px 46px;
+}

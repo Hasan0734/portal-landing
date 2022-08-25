@@ -1,0 +1,53 @@
+.regi_page {
+    height: 1080px;
+    background: #F5F6FD;
+    max-width: 1920px;
+
+}
+
+.regi_page .regi_nav {
+    background: #FFFFFF;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+
+
+.regi_page .stepper_area {
+    height: 750px;
+    width: 1194px;
+    background: #FFFFFF;
+    padding: 30px 20px;
+
+}
+
+.regi_page .stepper_area .step_prevBtn {
+    background: #FFFFFF;
+    border: 1px solid #9B9C9D;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #495057;
+    padding: 10px 45px;
+
+}
+
+.regi_page .stepper_area .step_nextBtn {
+    background: #5CA96C;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding: 10px 14px;
+}

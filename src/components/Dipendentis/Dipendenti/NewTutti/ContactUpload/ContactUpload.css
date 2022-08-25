@@ -1,0 +1,31 @@
+.upload_area {
+    background: #FFFFFF;
+    box-shadow: 22px 20px 80px 5px #DBE3ED;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.upload_area .upload_text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+
+    letter-spacing: -0.022em;
+
+    color: #49505C;
+
+}
+
+.upload_area .text .text_highlight {
+    color: #5CA96C;
+    font-weight: 600;
+}
+
+
+.upload_area .upload_icon {
+    background-color: #5CA96C;
+}

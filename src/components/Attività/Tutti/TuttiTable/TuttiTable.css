@@ -1,0 +1,49 @@
+.tutti_table {
+    border-collapse: separate;
+    border-spacing: 0 6px;
+}
+
+.tutti_table thead tr {
+    background: #F5F6F7;
+    border-radius: 5px;
+}
+
+.tutti_table thead tr th {
+    padding: 11px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #495057;
+}
+
+.tutti_table tbody tr {
+    background: #FFFFFF;
+    border: 0.5px solid #9B9C9D;
+    border-radius: 5px;
+}
+
+.tutti_table tbody tr td {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: -0.022em;
+    color: #495057;
+
+}
+
+.tutti_table .same_more {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    text-decoration-line: underline;
+    color: #5CA779;
+
+}

@@ -1,0 +1,36 @@
+.banner_area {
+    background-image: url(../../assets/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.banner_area .content_area {
+    padding: 6px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+}
+
+.banner_area .content_area .banner_text {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.banner_area .content_area .upgrade_btn {
+    background: #FFFFFF;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    margin-left: 29px;
+    padding: 0px 29px;
+
+
+}

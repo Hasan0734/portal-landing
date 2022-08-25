@@ -1,0 +1,59 @@
+.search_area {
+    margin-bottom: 76px;
+}
+
+.search_area .se_tab_button {
+    background: #F5F6F7;
+    border-radius: 5px;
+    padding: 10px 71px 10px 18px;
+    text-decoration: none;
+}
+
+
+.search_area .form_area {
+    background: #F5F6F7;
+    border-radius: 5px;
+    width: 470px;
+}
+
+.search_area .form_area .input_field {
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 2px;
+}
+
+.search_area .form_area .title {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+}
+
+
+.search_area .form_area .table_data .name {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #49505C;
+}
+
+.search_area .form_area .table_data .profe {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    letter-spacing: -0.022em;
+    color: #9D9D9D;
+}
+
+.search_area .form_area li{
+    cursor: pointer;
+}

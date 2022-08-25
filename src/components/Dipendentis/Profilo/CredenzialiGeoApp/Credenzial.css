@@ -1,0 +1,47 @@
+.app_area {
+    background: #FFFFFF;
+    box-shadow: 22px 20px 80px 5px #DBE3ED;
+    border-radius: 5px;
+}
+
+.app_area .badge_title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    /* identical to box height, or 183% */
+    text-transform: uppercase;
+    letter-spacing: -0.022em;
+
+    color: #49505C;
+}
+
+
+
+.app_area .main_btn {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #49505C;
+    text-decoration: none;
+    padding: 9px 18px;
+
+}
+
+.app_area .sub_text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    /* identical to box height, or 164% */
+
+    text-align: center;
+    letter-spacing: -0.022em;
+
+    color: #49505C;
+}
