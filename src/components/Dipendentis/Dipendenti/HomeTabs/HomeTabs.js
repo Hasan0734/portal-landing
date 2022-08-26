@@ -4,6 +4,7 @@ import "./HomeTabs.css";
 export default class HomeTabs extends Component {
 
   render() {
+    console.log(this.props)
     return (
       <div className="home_tab_area">
         <ul className="tabs d-flex gap-3 list-unstyled  w-100">
