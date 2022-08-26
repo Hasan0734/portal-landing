@@ -4,16 +4,16 @@ import Attività from "./components/Attività/Attività";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Login from "./components/Login/Login";
 import Dipendenti from "./components/Dipendentis/Dipendenti/Dipendenti";
-import NewTutti from "./components/Dipendentis/Dipendenti/NewTutti/NewTutti";
-import TeamProfile from "./components/Dipendentis/Dipendenti/TeamProfile/TeamProfile";
-import TeamProfileEdit from "./components/Dipendentis/Dipendenti/TeamProfile/TeamProfileEdit/TeamProfileEdit";
-import TeamProfileAdd from "./components/Dipendentis/Dipendenti/TeamProfile/TeamProfileAdd/TeamProfileAdd";
 import Impostazioni from "./components/Impostazioni/Impostazioni";
 import Timbrature from "./components/Timbrature/Timbrature";
 import Sedi from "./components/Sedi/Sedi";
 import Registration from "./components/Registration/Registration";
 import SignupHome from "./components/SignupHome/SignupHome";
-import TuttiTab from "./components/Dipendentis/Dipendenti/TuttiTab/TuttiTab";
+import TuttiPage from "./components/Dipendentis/TuttiPage/TuttiPage";
+import TeamProfileEdit from "./components/Dipendentis/TeamProfile/TeamProfileEdit";
+import TeamProfileAdd from "./components/Dipendentis/TeamProfile/TeamProfileAdd";
+import NewTutti from "./components/Dipendentis/NewTutti/NewTutti";
+import TeamProfile from "./components/Dipendentis/TeamProfile/TeamProfile";
 
 export default class App extends Component {
   render() {
@@ -26,7 +26,11 @@ export default class App extends Component {
         <Route exact path="/timbrature" component={Timbrature} />
         <Route exact path="/dependenti" component={Dipendenti} />
         <Route exact path="/dependenti/nuovo-dipendente" component={NewTutti} />
-        <Route exact path="/dependenti/tutti/:tuttiName/" component={TuttiTab} />
+        <Route
+          exact
+          path="/dependenti/tutti/:tuttiName/"
+          component={TuttiPage}
+        />
         <Route
           exact
           path="/dependenti/team/:teamName"
