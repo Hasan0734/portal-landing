@@ -28,7 +28,7 @@ export default class TimbratureTable extends Component {
               <th className="table_head">Ore da contratto</th>
               <th className="table_head">Ore Mancanti</th>
               <th className="table_head">Straordinari</th>
-              <th className="text-center" rowspan="3" colSpan={3}>
+              <th className="text-center" rowSpan="3" colSpan={3}>
                 <button
                   onClick={() => this.handleCollapse()}
                   className="table_collapse_btn"

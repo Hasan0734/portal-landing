@@ -31,9 +31,9 @@ export default class EditForm extends Component {
                   Geo App
                 </label>
                 <br />
-                <label class="switch mt-3">
+                <label className="switch mt-3">
                   <input type="checkbox" />
-                  <span class="slider round"></span>
+                  <span className="slider round"></span>
                 </label>
               </div>
             </div>

@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import DipendentiProfilo from "../Profilo/Profilo";
-import FoglioFresenza from "../FoglioPresenza/FoglioFresenza";
 import StaticButton from "../../StaticButton/StaticButton";
 import SelectOption from "../../SelectOption/SelectOption";
-import BustaPaga from "../BustaPaga/BustaPaga";
-import RimborsiChilomentrici from "../RimborsiChilomentrici/RimborsiChilomentrici";
-import Ferie from "../Ferie/Ferie";
 import Tabs from "../../Tabs/Tabs";
 import Banner from "../../Banner/Banner";
 import LeftSide from "../../LeftSide/LeftSide";
 import Spese from "./Spese/Spese";
+import DipendentiProfilo from "./Profilo/Profilo";
+import FoglioFresenza from "./FoglioPresenza/FoglioFresenza";
+import BustaPaga from "./BustaPaga/BustaPaga";
+import RimborsiChilomentrici from "./RimborsiChilomentrici/RimborsiChilomentrici";
+import Ferie from "./Ferie/Ferie";
 
 const tabs = [
   { title: "Profilo", hash: "profilo" },

@@ -2406,3 +2406,1381 @@ input:checked+.slider:before {
   text-decoration: none;
   padding: 12px 15px;
 }
+/* profilo style */
+
+.profile_badge_area {
+  margin-top: 5.5rem;
+}
+
+.pro_detail_area {}
+
+.pro_detail_area .pro_name {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #49505C;
+}
+
+.pro_detail_area .modify_btn {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  background: #F5F6F7;
+  border-radius: 5px;
+  color: #49505C;
+  text-decoration: none;
+  padding: 7px 24px;
+  border: none;
+  outline: none;
+}
+
+.pro_detail_area .label_text {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+
+}
+
+.pro_detail_area .detail_value {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  /* identical to box height, or 165% */
+
+  letter-spacing: -0.022em;
+
+  color: #49505C;
+}
+
+.pro_detail_area .download_btn_area {
+  background: #F5F6F7;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 24px 35px;
+
+}
+
+.badge_area {
+  background: #FFFFFF;
+  box-shadow: 22px 20px 80px 5px #DBE3ED;
+  border-radius: 5px;
+}
+
+.badge_area .badge_title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  /* identical to box height, or 183% */
+  text-transform: uppercase;
+  letter-spacing: -0.022em;
+
+  color: #49505C;
+}
+
+.badge_area .badge_qr {
+  background: #49505C;
+  border-radius: 15px;
+  padding: 16px;
+}
+
+.badge_area .main_btn {
+
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #49505C;
+  text-decoration: none;
+  padding: 9px 18px;
+
+}
+
+.badge_area .sub_text {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  /* identical to box height, or 164% */
+
+  text-align: center;
+  letter-spacing: -0.022em;
+
+  color: #49505C;
+}
+
+.app_area {
+  background: #FFFFFF;
+  box-shadow: 22px 20px 80px 5px #DBE3ED;
+  border-radius: 5px;
+}
+
+.app_area .badge_title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  /* identical to box height, or 183% */
+  text-transform: uppercase;
+  letter-spacing: -0.022em;
+
+  color: #49505C;
+}
+
+
+
+.app_area .main_btn {
+
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #49505C;
+  text-decoration: none;
+  padding: 9px 18px;
+
+}
+
+.app_area .sub_text {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  /* identical to box height, or 164% */
+
+  text-align: center;
+  letter-spacing: -0.022em;
+
+  color: #49505C;
+}
+
+/* foglio presenza style */
+
+.historical_tramping {
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 18px;
+}
+
+
+
+.historical_tramping .timbrarue_title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+
+  color: #49505C;
+
+}
+
+.historical_tramping .export_area {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #49505C;
+  background: #F5F6F7;
+  border-radius: 5px;
+  padding: 8px 12px;
+  outline: none;
+  border: none;
+}
+
+.name_foglio {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #49505C;
+
+}
+
+.table_area {
+  border-collapse: collapse;
+}
+
+.table_area .export_btn {
+  background: #F5F6F7;
+  border-radius: 5px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #495057;
+  padding: 12px 17px;
+}
+
+.table_main_title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 33px;
+  /* identical to box height, or 183% */
+  letter-spacing: -0.022em;
+  color: #49505C;
+  width: 160px;
+}
+
+.table_head {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+}
+
+.table_head_val {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+}
+
+
+.table_body .td_head {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+  padding: 10px 0px;
+
+}
+
+.table_body {
+  background: #FAFAFA;
+  border: 23px solid #fafafa;
+}
+
+
+.table_body .td_data {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+  background-color: #fff;
+  border-top: 3px solid #FAFAFA;
+  border-bottom: 3px solid #FAFAFA;
+
+}
+
+.table_body .by_location_box {
+
+  width: 258px;
+}
+
+.table_body .by_location {
+  border: 0.5px solid #83C282;
+  border-radius: 5px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #5CA96C;
+  width: 100%;
+}
+
+.table_collapse_btn {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* busta paga style */
+
+.form_busta .name {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #49505C;
+}
+
+.form_busta .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+
+}
+
+.form_busta .label_text {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+}
+
+.form_busta .input_field {
+  border: 1px solid #E4E4E4;
+  border-radius: 2px;
+  padding: 7px 23px 7px 5px;
+  width: 17%;
+}
+
+.form_busta .input_group_icon {
+  margin-left: -20px;
+}
+
+.form_busta .form_select {
+  background: #F5F6F7;
+  border-radius: 2px;
+  padding: 8px 35px;
+  border: none;
+  outline: none;
+}
+
+.form_busta .form_date {
+  border: 1px solid #E4E4E4;
+  border-radius: 2px;
+  padding: 7px 10px;
+}
+
+.file_up_top {
+  background: #F5F6FD;
+  border-radius: 5px;
+  padding: 9px;
+}
+
+.form_busta .file_up_top .file_upload_area {
+  background: #FFFFFF;
+  /* box-shadow: 22px 20px 80px 5px #DBE3ED; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form_busta .file_up_top .file_upload_area .upload_text {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+
+  letter-spacing: -0.022em;
+
+  color: #49505C;
+
+}
+
+.form_busta .file_up_top .file_upload_area .text .text_highlight {
+  color: #5CA96C;
+  font-weight: 600;
+}
+
+
+.form_busta .file_up_top .file_upload_area .upload_icon {
+  background-color: #5CA96C;
+}
+
+.form_busta .form_submit {
+  background: #5CA96C;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 15px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  padding: 10px 60px;
+}
+
+.archivio_area .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+
+}
+
+.archivio_area .year {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #49505C;
+}
+
+.archivio_area .collapse_btn {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.archivio_area .download_file_list .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+
+}
+
+.archivio_area .download_file_list .amount {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+
+}
+
+.archivio_area .download_file_list .download_btn {
+  background: #F5F6F7;
+  border-radius: 10px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+  padding: 25px 55px;
+  text-decoration: none;
+}
+
+
+.archivio_area .select_common {
+  display: block;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #49505C;
+  background-image: url(/src/assets/svg/chevronDown.svg);
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  background-color: #F5F6F7;
+
+}
+
+.archivio_area .select_month {
+
+  border-radius: 5px 0px 0px 5px;
+
+
+}
+
+.archivio_area .select_anno {
+  border-radius: 0px 5px 5px 0px;
+
+}
+
+.archivio_area .table_area .table_box {
+
+  border-collapse: separate;
+  border-spacing: 0 9px;
+
+}
+
+.archivio_area .table_area .table_box thead tr {
+  background: #F5F6F7;
+  border-radius: 5px;
+}
+
+.archivio_area .table_area .table_box thead tr th {
+
+  padding: 17px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #495057;
+}
+
+.archivio_area .table_area .table_box tbody tr td {
+
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #495057;
+  padding: 14px;
+
+}
+
+.archivio_area .table_area .table_box tbody tr {
+
+  background: #FFFFFF;
+  border: 0.5px solid #9B9C9D;
+  border-radius: 5px;
+}
+
+.archivio_area .table_area .table_box tbody .document_btn {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+  background: #F5F6F7;
+  border-radius: 3px;
+  padding: 5px 17px;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* rimborsi chilomentrici style */
+.spese_area .per_detail .name {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #49505C;
+}
+
+.spese_area .per_detail .title {
+  text-transform: uppercase;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+}
+
+.spese_area .per_detail .total {
+
+  background: #FFE6A5;
+  border-radius: 5px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #49505C;
+  outline: none;
+  border: none;
+  padding: 7px 13px;
+}
+
+.spese_area .add_btn {
+  background: #5CA96C;
+  border-radius: 5px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 12px 23px;
+}
+
+.uploads_top {
+  background: #F5F6FD;
+  border-radius: 5px;
+}
+
+
+.nuovo_rimborso_form .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #49505C;
+}
+
+.nuovo_rimborso_form .label {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+}
+
+.nuovo_rimborso_form .input_field {
+  border: 1px solid #E4E4E4;
+  border-radius: 2px;
+  padding: 8px 28px 8px 10px;
+}
+
+.nuovo_rimborso_form .currency_icon {
+  top: 40px;
+  right: 100px;
+}
+
+.nuovo_rimborso_form .allegati_btn {
+  border: none;
+  outline: none;
+  background: #F5F6F7;
+  border-radius: 10px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+  text-decoration: none;
+  padding: 12px 15px;
+}
+
+
+.rimborsi_approvate_area {
+  margin-top: 6rem;
+
+}
+
+.rimborsi_approvate_area .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+
+}
+
+.rimborsi_approvate_area .total {
+  background: #FFE6A5;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #49505C;
+}
+
+.rimborsi_approvate_area .spese_btn {
+  border: none;
+  outline: none;
+  background: #F5F6F7;
+  border-radius: 5px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #49505C;
+  padding: 6px 10px;
+}
+
+.rimborsi_approvate_area .list_area .list .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+}
+
+.rimborsi_approvate_area .list_area .list .value {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+}
+
+.rimborsi_approvate_area .list_area .list .value_bold {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+}
+
+.rimborsi_approvate_area .list_area .list .collapse_btn {
+  outline: none;
+  border: none;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+  background: none;
+}
+
+.rimborsi_approvate_area .list_area .list .collpse_area {
+  background: #F5F6FD;
+  border-radius: 5px;
+}
+
+.rimborsi_approvate_area .list_area .list .collpse_area .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+
+}
+
+.rimborsi_approvate_area .list_area .list .collpse_area .btn_download {
+  background: #F5F6F7;
+  border-radius: 10px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.gap-6 {
+  gap: 5rem !important;
+}
+
+.rimborsi_slider_area {
+  background: #F5F6FD;
+  border-radius: 5px;
+  padding: 70px;
+}
+
+.slider_item {
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 22px 20px 80px 5px #DBE3ED;
+  border-radius: 5px;
+}
+
+
+.slider_item .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+}
+
+
+.slider_item .name_profe {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+}
+
+.slider_item .text_label {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+}
+
+.slider_item .text_value {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+}
+
+.slider_item .amount {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+
+}
+
+.slider_item .attachment {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+  text-decoration: none;
+  background: #F5F6F7;
+  border-radius: 10px;
+  padding: 13px 16px;
+
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #495057 !important;
+  font-weight: bold;
+}
+
+
+.pagination_button .swiper-pagination-bullet {
+  background-color: #FFFFFF;
+  padding: 6px;
+  opacity: 1;
+}
+
+.pagination_button .swiper-pagination-bullet-active {
+  background-color: #d6d6d6;
+  padding: 6px;
+}
+
+
+.desc_content .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+}
+
+.desc_content .content {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+
+}
+
+.desc_area .label {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+}
+
+.desc_area .input_field {
+  padding: 5px 19px 5px 6px;
+  border: 1px solid #D9D9D9;
+}
+
+.desc_area .submit_btn {
+  background: #5CA96C;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  padding: 10px 30px
+}
+
+.desc_area .images_btn {
+  background: #F5F6F7;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 1px 8px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  /* identical to box height, or 183% */
+  width: 30px;
+  height: 33px;
+  letter-spacing: -0.022em;
+  color: #495057;
+}
+
+.desc_area .active_btn {
+  background: #83C282 !important;
+  color: #FFFFFF !important;
+}
+
+/*ferie style  */
+
+.ferie_area .per_detail .name {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #49505C;
+}
+
+.ferie_area .per_detail .title {
+  text-transform: uppercase;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+}
+
+.ferie_area .per_detail .total {
+
+  background: #FFE6A5;
+  border-radius: 5px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #49505C;
+  outline: none;
+  border: none;
+  padding: 7px 13px;
+}
+
+.ferie_area .add_btn {
+  background: #5CA96C;
+  border-radius: 5px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 12px 23px;
+}
+
+.uploads_top {
+  background: #F5F6FD;
+  border-radius: 5px;
+}
+
+
+.nuova_ferie_form .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #49505C;
+}
+
+.nuova_ferie_form .label {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+}
+
+.nuova_ferie_form .input_field {
+  border: 1px solid #E4E4E4;
+  border-radius: 2px;
+  padding: 8px 28px 8px 10px;
+}
+
+.nuova_ferie_form .currency_icon {
+  top: 40px;
+  right: 100px;
+}
+
+.nuova_ferie_form .allegati_btn {
+  border: none;
+  outline: none;
+  background: #F5F6F7;
+  border-radius: 10px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+  text-decoration: none;
+  padding: 12px 15px;
+}
+
+.ferie_permessi {
+  margin-top: 6rem;
+
+}
+
+.ferie_permessi .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+
+}
+
+.ferie_permessi .total {
+  background: rgba(148, 214, 151, 0.63);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #49505C;
+}
+
+.ferie_permessi .spese_btn {
+  border: none;
+  outline: none;
+  background: #F5F6F7;
+  border-radius: 5px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #49505C;
+  padding: 6px 10px;
+}
+
+.ferie_permessi .list_area .list .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+}
+
+.ferie_permessi .list_area .list .value {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+}
+
+.ferie_permessi .list_area .list .value_bold {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+}
+
+.ferie_permessi .list_area .list .collapse_btn {
+  outline: none;
+  border: none;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+  background: none;
+}
+
+.ferie_permessi .list_area .list .collpse_area {
+  background: #F5F6FD;
+  border-radius: 5px;
+}
+
+.ferie_permessi .list_area .list .collpse_area .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+
+}
+
+.ferie_permessi .list_area .list .collpse_area .btn_download {
+  background: #F5F6F7;
+  border-radius: 10px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.ferie_permessi .list_area .list_item_header .list_h_text {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  /* identical to box height, or 183% */
+
+  letter-spacing: -0.022em;
+
+  color: #9B9C9D;
+}
+
+.ferie_permessi .list_area .list_item_body .list_dt_text {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  /* identical to box height, or 165% */
+
+  letter-spacing: -0.022em;
+
+  color: #49505C;
+}
+
+.ferie_permessi .list_area .list_item_body .feried_btn {
+  border: 2px solid #FFE6A5;
+
+}
+
+.ferie_permessi .list_area .list_item_body .permesso_btn {
+  border: 2px solid #1ABCFE;
+
+}
+
+.ferie_permessi .list_area .list_item_body .btns {
+  border-radius: 3px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #495057;
+  padding: 3px 17px;
+  text-transform: uppercase;
+
+}
+
+.ferie_slider_area {
+  background: #F5F6FD;
+  border-radius: 5px;
+  padding: 70px;
+}
+
+.ferie_slider_area .slider_item {
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 22px 20px 80px 5px #DBE3ED;
+  border-radius: 5px;
+}
+
+
+.ferie_slider_area .slider_item .title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+}
+
+
+.ferie_slider_area .slider_item .name_profe {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+}
+
+.ferie_slider_area .slider_item .text_label {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #9B9C9D;
+}
+
+.ferie_slider_area .slider_item .text_value {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+}
+
+.ferie_slider_area .slider_item .amount {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+
+}
+
+.ferie_slider_area .slider_item .attachment {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 33px;
+  letter-spacing: -0.022em;
+  color: #49505C;
+  text-decoration: none;
+  background: #F5F6F7;
+  border-radius: 10px;
+  padding: 13px 16px;
+
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #495057 !important;
+  font-weight: bold;
+}
+
+
+.pagination_button .swiper-pagination-bullet {
+  background-color: #FFFFFF;
+  padding: 6px;
+  opacity: 1;
+}
+
+.pagination_button .swiper-pagination-bullet-active {
+  background-color: #d6d6d6;
+  padding: 6px;
+}
+
+
+.ferie_btns button {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #495057;
+  background: #F5F6F7;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+}
+
+.ferie_btns .active {
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #5CA96C;
+}
