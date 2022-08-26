@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import "./PersoneSpecificheTable.css";
-import PersoneSpecificheTableList from "./PersoneSpecificheTableList";
-import { PersoneData } from "./tableData";
+import CommonTableList from "./CommonTableList";
+import { sedeData } from "./commonData";
 
-export default class PersoneSpecificheTable extends Component {
+export default class CommonTable extends Component {
   render() {
     return (
       <table className="w-100 attività_table mt-3 w-100">
@@ -19,8 +18,8 @@ export default class PersoneSpecificheTable extends Component {
           </tr>
         </thead>
         <tbody>
-          {PersoneData.map((persone) => (
-            <PersoneSpecificheTableList key={persone.id} data={ persone} />
+          {sedeData.map((sede) => (
+            <CommonTableList key={sede.id} sede={sede} />
           ))}
         </tbody>
       </table>

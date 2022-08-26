@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import PersoneSpecifiche from "./PersoneSpecifiche/PersoneSpecifiche";
-import SedeSpecifica from "./SadeSpecifica/SedeSpecifica";
-import Tutti from "./Tutti/Tutti";
-import "./Attività.css";
 import Banner from "../Banner/Banner";
 import LeftSide from "../LeftSide/LeftSide";
+import { ChevronDown, Home, Person, StarIcon } from "../../assets/svg/svg";
+import CommonForm from "./CommonForm";
+import { commonData, tuttiData } from "./commonData";
+import CommonTableList from "./CommonTableList";
 
 export default class Attività extends Component {
   constructor(props) {
@@ -113,9 +113,156 @@ export default class Attività extends Component {
                 </div>
                 {/* from */}
 
-                {tutti && <Tutti />}
-                {sedeSpecifica && <SedeSpecifica />}
-                {personeSpecifiche && <PersoneSpecifiche />}
+                {tutti && (
+                  <div>
+                    <CommonForm></CommonForm>
+
+                    {/* table data ARCHIVIO  */}
+
+                    <div className="attivita_table_area">
+                      <h4 className="title">ARCHIVIO </h4>
+                      <div className="d-flex justify-content-end gap-1">
+                        <button className="btns rounded-start rounded-1">
+                          <StarIcon /> Tutti
+                        </button>
+                        <button className="btns">
+                          <Home /> <span className="mx-2">Sedi</span>{" "}
+                          <ChevronDown />
+                        </button>
+                        <button className="btns rounded-end rounded-1">
+                          <Person /> <span className="mx-2">Persone</span>
+                          <ChevronDown />
+                        </button>
+                      </div>
+                      {/* table data */}
+                      <table className="w-100 attività_table mt-3 w-100">
+                        <thead>
+                          <tr>
+                            <th className="rounded">Nome Attività</th>
+                            <th>Inzio</th>
+                            <th>Fine</th>
+                            <th>Assegnato a</th>
+                            <th>Stato</th>
+                            <th>Note</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {tuttiData.map((sede) => (
+                            <CommonTableList
+                              name={"tutti"}
+                              key={sede.id}
+                              sede={sede}
+                            />
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                )}
+                {sedeSpecifica && (
+                  <div>
+                    <CommonForm>
+                      <div className="mb-2">
+                        <label className="input_label">Seleziona</label>
+                        <br />
+                        <select className="seleziona">
+                          <option>Portal Cafe</option>
+                          <option>Portal Cafe</option>
+                          <option>Portal Cafe</option>
+                        </select>
+                      </div>
+                    </CommonForm>
+
+                    {/* table data ARCHIVIO  */}
+
+                    <div className="attivita_table_area">
+                      <h4 className="title">ARCHIVIO </h4>
+                      <div className="d-flex justify-content-end gap-1">
+                        <button className="btns rounded-start rounded-1">
+                          <StarIcon /> Tutti
+                        </button>
+                        <button className="btns">
+                          <Home /> <span className="mx-2">Sedi</span>{" "}
+                          <ChevronDown />
+                        </button>
+                        <button className="btns rounded-end rounded-1">
+                          <Person /> <span className="mx-2">Persone</span>{" "}
+                          <ChevronDown />
+                        </button>
+                      </div>
+                      {/* table data */}
+                      <table className="w-100 attività_table mt-3 w-100">
+                        <thead>
+                          <tr>
+                            <th className="rounded">Nome Attività</th>
+                            <th>Inzio</th>
+                            <th>Fine</th>
+                            <th>Assegnato a</th>
+                            <th>Stato</th>
+                            <th>Note</th>
+                            <th className="rounded">Azioni</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {commonData.map((sede) => (
+                            <CommonTableList
+                              name={"sede"}
+                              key={sede.id}
+                              sede={sede}
+                            />
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                )}
+                {personeSpecifiche && (
+                  <div>
+                    <CommonForm></CommonForm>
+
+                    {/* table data ARCHIVIO  */}
+
+                    <div className="attivita_table_area">
+                      <h4 className="title">ARCHIVIO </h4>
+                      <div className="d-flex justify-content-end gap-1">
+                        <button className="btns rounded-start rounded-1">
+                          <StarIcon /> Tutti
+                        </button>
+                        <button className="btns">
+                          <Home /> <span className="mx-2">Sedi</span>{" "}
+                          <ChevronDown />
+                        </button>
+                        <button className="btns rounded-end rounded-1">
+                          <Person /> <span className="mx-2">Persone</span>{" "}
+                          <ChevronDown />
+                        </button>
+                      </div>
+                      {/* table data */}
+                      <table className="w-100 attività_table mt-3 w-100">
+                        <thead>
+                          <tr>
+                            <th className="rounded">Nome Attività</th>
+                            <th>Inzio</th>
+                            <th>Fine</th>
+                            <th>Assegnato a</th>
+                            <th>Stato</th>
+                            <th>Note</th>
+                            <th className="rounded">Azioni</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {commonData.map((sede) => (
+                            <CommonTableList
+                              name={"persone"}
+                              key={sede.id}
+                              sede={sede}
+                            />
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                )}
               </div>
             </main>
             {/* main body section  end*/}

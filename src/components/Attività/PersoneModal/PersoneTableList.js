@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./PersoneModal.css";
 export default class PersoneTableList extends Component {
   render() {
     const { nome, cognome, mansione, team } = this.props.data;

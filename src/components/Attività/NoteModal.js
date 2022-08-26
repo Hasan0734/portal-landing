@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { XIcon } from "../../../../assets/svg/svg";
-import Modals from "../../../Modal/Modals";
-import "./NoteModal.css";
+import { XIcon } from "../../assets/svg/svg";
+import Modals from "../Modal/Modals";
 export default class NoteModal extends Component {
 
 
@@ -10,7 +9,7 @@ export default class NoteModal extends Component {
       <Modals trigger={this.props.trigger} size=" " >
         <div className="note_modal p-3">
           <div className="text-end">
-            <button onClick={() => this.props.handleNote()} className="close_btn">
+            <button onClick={() => this.props.handleTrigger()} className="close_btn">
               <XIcon/>
             </button>
           </div>
@@ -33,7 +32,7 @@ export default class NoteModal extends Component {
             </div>
           </div>
           <div className="d-flex justify-content-end">
-            <button  onClick={() => this.props.handleNote()} className="border-0 outline-none ok_btn">Ok</button>
+            <button  onClick={() => this.props.handleTrigger()} className="border-0 outline-none ok_btn">Ok</button>
           </div>
         </div>
       </Modals>

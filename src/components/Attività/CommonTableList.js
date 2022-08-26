@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-import {
-  DeleteOutline,
-  EditIcon,
-  EyeIcon,
-  PeoplesIcon,
-} from "../../../../assets/svg/svg";
-import NoteModal from "../NoteModal/NoteModal";
-import "./SedeSpecificaTable.css";
+import { DeleteOutline, EditIcon, EyeIcon, PeoplesIcon } from "../../assets/svg/svg";
+import NoteModal from "./NoteModal";
+import PersoneModal from "./PersoneModal/PersoneModal";
 
-export default class SedeSpecificaTableList extends Component {
+export default class CommonTableList extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -24,12 +19,19 @@ export default class SedeSpecificaTableList extends Component {
     const { name, inzio, fine, assegnatoA, stato, note } = this.props.sede;
     return (
       <>
-        {this.state.isTrigger && (
+        {this.state.noteOpen && (
           <NoteModal
-            handleTrigger={this.handleTrigger}
-            trigger={this.state.isTrigger}
+            handleNote={this.handleNote}
+            trigger={this.state.noteOpen}
           />
         )}
+        {this.state.persone && (
+          <PersoneModal
+            handlePersone={this.handlePersone}
+            trigger={this.state.persone}
+          />
+        )}
+
         <tr>
           <td className="border border-end-0 rounded-start text-uppercase">
             {name}
@@ -41,8 +43,19 @@ export default class SedeSpecificaTableList extends Component {
             {fine}
           </td>
           <td className="border border-end-0 border-start-0 text-center text-uppercase">
-            {typeof assegnatoA === "number" && "+"} {assegnatoA}{" "}
-            {typeof assegnatoA === "number" && <PeoplesIcon />}
+            {typeof assegnatoA === "number" ? (
+              <span>
+                <span
+                  className="same_more cursor-pointer"
+                  onClick={() => this.handlePersone()}
+                >
+                  {" + "} {assegnatoA}
+                </span>{" "}
+                <PeoplesIcon />
+              </span>
+            ) : (
+              assegnatoA
+            )}
           </td>
           <td className="border border-end-0 border-start-0 text-center">
             {stato}
@@ -54,7 +67,7 @@ export default class SedeSpecificaTableList extends Component {
             {note}
             {note ? (
               <span
-                onClick={() => this.handleTrigger()}
+                onClick={() => this.handleNote()}
                 style={{ cursor: "pointer" }}
               >
                 {" "}
@@ -64,14 +77,14 @@ export default class SedeSpecificaTableList extends Component {
               "-"
             )}
           </td>
-          <td className="border border-start-0 rounded-end align-items-center">
+          {this.props.name !== 'tutti' && <td className="border border-start-0 rounded-end align-items-center">
             <span>
               <EditIcon />
             </span>{" "}
             <span className="ms-2">
               <DeleteOutline />
             </span>
-          </td>
+          </td>}
         </tr>
       </>
     );

@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { XIcon } from "../../../../assets/svg/svg";
-import Modals from "../../../Modal/Modals";
+import { XIcon } from "../../../assets/svg/svg";
+import Modals from "../../Modal/Modals";
 import { data } from "./modalData";
-import "./PersoneModal.css";
 import PersoneTableList from "./PersoneTableList";
 
 export default class PersoneModal extends Component {

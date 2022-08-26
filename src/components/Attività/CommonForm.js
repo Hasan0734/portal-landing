@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import { UploadIcon } from "../../../../assets/svg/svg";
-import "./SedeSpecificaForm.css";
+import { UploadIcon } from "../../assets/svg/svg";
 
-export default class SedeSpecificaForm extends Component {
+export default class CommonForm extends Component {
   render() {
     return (
       <div>
-        <form className="sede_from_area">
+        <form className="activities_from_area">
           <div className="row mt-5">
             <div className="col-md-6">
-              <div>
+              {this.props.children}
+              {/* <div className="mb-2">
                 <label className="input_label">Seleziona</label>
                 <br />
                 <select className="seleziona">
@@ -17,8 +17,8 @@ export default class SedeSpecificaForm extends Component {
                   <option>Portal Cafe</option>
                   <option>Portal Cafe</option>
                 </select>
-              </div>
-              <div className="mt-2">
+              </div> */}
+              <div>
                 <label className="input_label">Nome Attività</label>
                 <br />
                 <input className="input_box w-75" type="text" />
@@ -69,12 +69,12 @@ export default class SedeSpecificaForm extends Component {
               <div className="file_up_top mt-3">
                 <label
                   htmlFor="file"
-                  className="file_upload_area text-center p-2"
+                  className="file_upload_area text-center p-3"
                 >
                   <div className="d-flex justify-content-center">
                     <div className="px-2 py-3 badge_area_sub">
                       <div className="upload_icon rounded-circle p-2">
-                        <UploadIcon/>
+                        <UploadIcon />
                       </div>
                     </div>
                   </div>
