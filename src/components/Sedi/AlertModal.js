@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
-import Modals from "../../Modal/Modals";
-import alertImg from "../../../assets/alertImg.svg";
-import "./AlertModal.css";
+import Modals from "../Modal/Modals";
+import alertImg from "../../assets/alertImg.svg";
 import { X } from "react-feather";
 
 export default class AlertModal extends Component {

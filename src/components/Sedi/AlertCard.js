@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { DeleteOutline, EditIcon } from "../../../../assets/svg/svg";
-import AlertModal from "../../AlertModal/AlertModal";
-import EditModal from "../../EditModal/EditModal";
-import "./AlertCard.css";
+import { DeleteOutline, EditIcon } from "../../assets/svg/svg";
+import AlertModal from "./AlertModal";
+import EditModal from "./EditModal";
 export default class AlertCard extends Component {
   constructor(props) {
     super(props);

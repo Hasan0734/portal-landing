@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { ChevronDown, ChevronUp, Search } from "react-feather";
 import OutsideClickHandler from "react-outside-click-handler";
-import "../Timbrature.css";
-import SearchBar from "../SearchBar/SearchBar";
-import { Calendar2, IconExport } from "../../../assets/svg/svg";
+import { Calendar2, IconExport } from "../../assets/svg/svg";
+import SearchBar from "./SearchBar";
 
 export default class TimbratureFilter extends Component {
   constructor(props) {

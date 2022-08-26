@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { memberList } from "./dummyData";
-import "./SearchBar.css";
 
 export default class SearchBar extends Component {
   render() {

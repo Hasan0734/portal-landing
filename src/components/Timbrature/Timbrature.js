@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import "./Timbrature.css";
 import { tableData } from "./dummyData";
-import TimbratureFilter from "./TimbratureFilter/TimbratureFilter";
 import LeftSide from "../LeftSide/LeftSide";
 import Banner from "../Banner/Banner";
-import TimbratureTable from "./TimbratureTable/TimbratureTable";
+import TimbratureFilter from "./TimbratureFilter";
+import TimbratureTable from "./TimbratureTable";
 
 export default class Timbrature extends Component {
   render() {

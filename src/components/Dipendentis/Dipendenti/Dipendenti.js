@@ -1,12 +1,24 @@
 import React, { Component } from "react";
-import DipendentiPage from "./DipendentiPage";
 import "./Dipendenti.css";
 import Banner from "../../Banner/Banner";
 import LeftSide from "../../LeftSide/LeftSide";
+import Team from "./Team";
+import Tutti from "./Tutti";
 
 
 export default class Dipendenti extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeTab: "tutti",
+    };
+  }
 
+  handleTab = (name) => {
+    this.setState({
+      activeTab: name,
+    });
+  };
   render() {
     return (
       <>
@@ -23,7 +35,18 @@ export default class Dipendenti extends Component {
 
             <main className="main_body">
               {/* pass the children */}
-              <DipendentiPage />
+              {this.state.activeTab === "tutti" && (
+                <Tutti
+                  activeTab={this.state.activeTab}
+                  handleTab={this.handleTab}
+                />
+              )}
+              {this.state.activeTab === "team" && (
+                <Team
+                  activeTab={this.state.activeTab}
+                  handleTab={this.handleTab}
+                />
+              )}
             </main>
             {/* main body section  end*/}
           </div>

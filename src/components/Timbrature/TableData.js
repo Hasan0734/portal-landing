@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import {EditIcon2, Location as LocationIcon,
-  } from "../../../assets/svg/svg";
-import "./Table.css";
+import { EditIcon2, Location as LocationIcon } from "../../assets/svg/svg";
 export default class TableData extends Component {
   render() {
     const {data, entrata, uscita, entrata2,uscita2,badge, sede} = this.props.body

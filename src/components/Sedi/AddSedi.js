@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { X } from "react-feather";
 import OutsideClickHandler from "react-outside-click-handler";
-import Modals from "../../Modal/Modals";
-import "./EditModal.css";
+import Modals from "../Modal/Modals";
 
-export default class EditModal extends Component {
+
+export default class AddSedi extends Component {
   render() {
     return (
       <Modals trigger={this.props.trigger} size=" ">
@@ -35,7 +35,7 @@ export default class EditModal extends Component {
                 <br />
                 <input
                   className="input_box w-50"
-                  defaultValue={"Portal OFFICE"}
+                  
                   type="text"
                 />
               </div>
@@ -44,7 +44,7 @@ export default class EditModal extends Component {
                 <br />
                 <input
                   className="input_box w-75"
-                  defaultValue={"Viale Morgagni ..."}
+                 
                   type="text"
                 />
               </div>

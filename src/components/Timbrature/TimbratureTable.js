@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { ChevronDown } from "react-feather";
-import { DirectionArrrow } from "../../../assets/svg/svg";
-
-import "./Table.css";
+import { DirectionArrrow } from "../../assets/svg/svg";
 import TableData from "./TableData";
 
 export default class TimbratureTable extends Component {

@@ -8,7 +8,7 @@ import NewTutti from "./components/Dipendentis/Dipendenti/NewTutti/NewTutti";
 import TeamProfile from "./components/Dipendentis/Dipendenti/TeamProfile/TeamProfile";
 import TeamProfileEdit from "./components/Dipendentis/Dipendenti/TeamProfile/TeamProfileEdit/TeamProfileEdit";
 import TeamProfileAdd from "./components/Dipendentis/Dipendenti/TeamProfile/TeamProfileAdd/TeamProfileAdd";
-import Impostazioni from "./components/Impostazioni/Impostazioni/Impostazioni";
+import Impostazioni from "./components/Impostazioni/Impostazioni";
 import Timbrature from "./components/Timbrature/Timbrature";
 import Sedi from "./components/Sedi/Sedi";
 import Registration from "./components/Registration/Registration";
